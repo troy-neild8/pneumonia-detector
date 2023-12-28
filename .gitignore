@@ -1,0 +1,8 @@
+# ignore data
+rsna-pneumonia-detection-challenge
+# ignore zipped data
+rsna-pneumonia-detection-challenge.zip
+# finder util
+.DS_Store
+# poetry deps
+.venv

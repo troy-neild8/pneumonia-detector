@@ -18,5 +18,8 @@
     "titleBar.inactiveBackground": "#2e96f199",
     "titleBar.inactiveForeground": "#15202b99"
   },
-  "peacock.color": "#2e96f1"
+  "peacock.color": "#2e96f1",
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": "/Users/kidneild/projects/pneumonia-detector/.venv/bin/black",
+
 }

@@ -1,0 +1,55 @@
+[tool.poetry]
+name = "pneumonia-detector"
+version = "0.1.0"
+description = ""
+authors = ["Troy Neild"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.3"
+kaggle = "^1.5.16"
+pydicom = "^2.4.4"
+black = "^23.12.1"
+numpy = "^1.26.2"
+opencv-python = "^4.8.1.78"
+pillow = "^10.1.0"
+tensorflow-macos = { version = "^2.15.0", markers = "platform_system=='Darwin' and platform_machine=='arm64'" }
+tensorflow = "^2.13.0"
+
+
+
+
+
+[tool.pdm]
+package-type = "library"
+
+[tool.pdm.build]
+includes = []
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[project]
+name = "pneumonia-detector"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Troy Neild", email = "kid@infograte.com"},
+    {name = "Troy Neild"},
+]
+dependencies = [
+    "kaggle<2.0.0,>=1.5.16",
+    "pydicom<3.0.0,>=2.4.4",
+    "black<24.0.0,>=23.12.1",
+    "numpy<2.0.0,>=1.26.2",
+    "opencv-python<5.0.0.0,>=4.8.1.78",
+    "pillow<11.0.0,>=10.1.0",
+    "tensorflow-macos<3.0.0,>=2.15.0; platform_system == \"Darwin\" and platform_machine == \"arm64\"",
+    "tensorflow<3.0.0,>=2.13.0",
+]
+requires-python = ">=3.10.3,<3.10.4"
+readme = "README.md"
+license = {text = "MIT"}
+
