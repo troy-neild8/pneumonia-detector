@@ -1,13 +1,14 @@
-# Install python version
+# Set up env
 
-```sh
-brew bundle
-```
-
-```sh
-pyenv install
-```
+Run `source ~/venv-metal/bin/activate` and you should see the following
 
 ```
-poetry install
+➜  pneumonia-detector git:(master) ✗ source ~/venv-metal/bin/activate
+(venv-metal) ➜  pneumonia-detector git:(master) ✗
+```
+
+# take down env
+
+```
+deactivate
 ```

@@ -4,5 +4,4 @@ rsna-pneumonia-detection-challenge
 rsna-pneumonia-detection-challenge.zip
 # finder util
 .DS_Store
-# poetry deps
-.venv
+__pychache__/
