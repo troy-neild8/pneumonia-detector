@@ -5,3 +5,4 @@ rsna-pneumonia-detection-challenge.zip
 # finder util
 .DS_Store
 __pychache__/
+ml-venv/
